@@ -1,5 +1,4 @@
 package leet_code;
-
 import java.util.*;
 
 class Valid {
