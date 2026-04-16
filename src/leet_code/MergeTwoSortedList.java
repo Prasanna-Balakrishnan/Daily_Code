@@ -37,7 +37,27 @@ class FindSolution {
 }
 public class MergeTwoSortedList {
 	public static void main(String[] args) {
+        ListNode list1 = new ListNode(1);
+        list1.next = new ListNode(3);
+        list1.next.next = new ListNode(5);
+
+        ListNode list2 = new ListNode(2);
+        list2.next = new ListNode(4);
+        list2.next.next = new ListNode(6);
+
+        FindSolution sol = new  FindSolution();
+        ListNode result = sol.mergeTwoLists(list1, list2);
+
+        printList(result);
+    }
+    public static void printList(ListNode head) {
+        ListNode temp = head;
+        while (temp != null) {
+            System.out.print(temp.val + " -> ");
+            temp = temp.next;
+        }
+        System.out.println("null");
+    }
 		
 	}
 
-}
