@@ -1,13 +1,9 @@
 package leet_code;
-
 import java.util.*;
-
 class SolutionCheck {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-
         for (char ch : s.toCharArray()) {
-
             if (ch == '(') stack.push(')');
             else if (ch == '{') stack.push('}');
             else if (ch == '[') stack.push(']');
@@ -21,7 +17,6 @@ class SolutionCheck {
         return stack.isEmpty();
     }
 }
-
 public class ValidParanthesis {
     public static void main(String[] args) {
         SolutionCheck sol = new SolutionCheck();
@@ -30,7 +25,6 @@ public class ValidParanthesis {
         String s3 = "(]";
         String s4 = "([])";
         String s5 = "([)]";
-
         System.out.println(s1 + " -> " + sol.isValid(s1));
         System.out.println(s2 + " -> " + sol.isValid(s2));
         System.out.println(s3 + " -> " + sol.isValid(s3));
