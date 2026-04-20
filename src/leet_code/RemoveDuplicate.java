@@ -12,11 +12,9 @@ class SolutionDuplicate {
                 k++;
             }
         }
-
         return k;
     }
 }
-
 public class RemoveDuplicate {
     public static void main(String[] args) {
     	SolutionDuplicate obj = new SolutionDuplicate();
