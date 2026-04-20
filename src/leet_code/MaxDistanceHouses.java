@@ -23,7 +23,6 @@ public class MaxDistanceHouses {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
         System.out.print("Enter number of houses: ");
         int n = sc.nextInt();
         
