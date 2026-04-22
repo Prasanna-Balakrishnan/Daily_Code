@@ -17,7 +17,7 @@ public class Plus {
     }
 
     public static void main(String[] args) {
-        Solution obj = new Solution();
+        Plus obj = new Plus();
         int[] digits1 = {1, 2, 3};
         int[] digits2 = {4, 3, 2, 1};
         int[] digits3 = {9};
