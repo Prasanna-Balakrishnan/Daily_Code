@@ -14,25 +14,14 @@ class TreeNodes {
         this.right = right;
     }
 }
-
 class SolutionNode {
     public boolean isSameTree(TreeNodes p, TreeNodes q) {
-        if (p == null && q == null) 
-        	{return true;
-        	
-        	}
-        if (p == null || q == null) 
-        	{
-        	return false;
-        	}
-        if (p.val != q.val) 
-        	{
-        	return false;
-        	}
+        if (p == null && q == null) return true;
+        if (p == null || q == null) return false;
+        if (p.val != q.val) return false;
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
-
 public class SameNode {
     public static void main(String[] args) {
         TreeNodes t1 = new TreeNodes(1,
