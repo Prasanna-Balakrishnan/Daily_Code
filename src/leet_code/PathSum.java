@@ -1,6 +1,4 @@
 package leet_code;
-
-
 class Tree {
     int val;
     Tree left, right;
@@ -22,7 +20,6 @@ public class PathSum {
     }
 
     public static void main(String[] args) {
-
         Tree root = new Tree(5);
         root.left = new Tree(4);
         root.right = new Tree(8);
