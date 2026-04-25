@@ -9,7 +9,6 @@ class Tree {
     }
 }
 public class PathSum {
-
     public static boolean hasPathSum(Tree root, int targetSum) {
         if (root == null) return false;
         if (root.left == null && root.right == null) {
@@ -18,7 +17,6 @@ public class PathSum {
         return hasPathSum(root.left, targetSum - root.val) ||
                hasPathSum(root.right, targetSum - root.val);
     }
-
     public static void main(String[] args) {
         Tree root = new Tree(5);
         root.left = new Tree(4);
