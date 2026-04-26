@@ -1,7 +1,6 @@
 package leet_code;
 import java.math.BigInteger;
 
-
 public class BinaryAddition {
     public int checkBinary(char c){
         if(c == '1') return 1;
@@ -39,7 +38,6 @@ public class BinaryAddition {
 
         return ans.reverse().toString();
     }
-    
     
     public static void main(String[] args) {
         BinaryAddition obj = new BinaryAddition();
