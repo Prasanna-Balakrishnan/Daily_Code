@@ -1,5 +1,4 @@
 package leet_code;
-
 public class Fibbonocci {
     public static int fib(int n) {
         if(n==1){
