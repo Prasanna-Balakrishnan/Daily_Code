@@ -4,7 +4,6 @@ public class RotateString {
     public static boolean rotateString(String s, String goal) {
         int l1 = s.length();
         int l2 = goal.length();
-
         if (l1 != l2) {
             return false;
         }
@@ -18,11 +17,8 @@ public class RotateString {
 
         return false;
     }
-
     public static void main(String[] args) {
-
         RotateString obj = new RotateString ();
-
         System.out.println(obj.rotateString("abcde", "cdeab")); // true
         System.out.println(obj.rotateString("abcde", "abced")); // false
     }
