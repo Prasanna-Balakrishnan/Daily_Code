@@ -8,7 +8,6 @@ public class BinaryAddition {
     public String addBinary(String a, String b) {
         int l1 = a.length();
         int l2 = b.length();
-
         BigInteger result1 = BigInteger.ZERO;
         BigInteger result2 = BigInteger.ZERO;
         for(int i = 0; i < l1; i++){
@@ -17,7 +16,6 @@ public class BinaryAddition {
                 result1 = result1.add(BigInteger.valueOf(2).pow(l1 - 1 - i));
             }
         }
-
         for(int i = 0; i < l2; i++){
             int bit = checkBinary(b.charAt(i));
             if(bit == 1){
@@ -34,7 +32,6 @@ public class BinaryAddition {
 
         return ans.reverse().toString();
     }
-    
     public static void main(String[] args) {
         BinaryAddition obj = new BinaryAddition();
         String a = "1010";
