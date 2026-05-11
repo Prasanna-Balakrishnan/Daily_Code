@@ -18,7 +18,6 @@ public class SqrtOfX{
         }
         return ans;
     }
-
     public static void main(String[] args){
         int x=8;
         System.out.println(mySqrt(x));
