@@ -1,5 +1,4 @@
 package leet_code;
-
 import java.util.Scanner;
 public class PerfectSquare {
     public static boolean isPerfectSquare(int num) {
