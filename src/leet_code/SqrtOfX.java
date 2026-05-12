@@ -4,6 +4,8 @@ public class SqrtOfX{
         if(x==0||x==1){
             return x;
         }
+
+        
         int left=1,right=x,ans=0;
         while(left<=right){
             int mid=left+(right-left)/2;
@@ -19,6 +21,8 @@ public class SqrtOfX{
         }
         return ans;
     }
+
+    
     public static void main(String[] args){
         int x=8;
         System.out.println(mySqrt(x));
