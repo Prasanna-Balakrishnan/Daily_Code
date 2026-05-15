@@ -41,6 +41,3 @@ Problems and exercises may come from:
 
 ## 📈 Progress
 This repository is updated regularly with new code and solutions.
-
-## 🤝 Connect With Me
-- GitHub: [Prasanna-Balakrishnan](https://github.com/Prasanna-Balakrishnan)
