@@ -1,9 +1,7 @@
 package leet_code;
 
 import java.util.Scanner;
-
 public class AddDigits {
-
     public static int addDigits(int num) {
         while (num >= 10) {
             int sum = 0;
@@ -18,16 +16,11 @@ public class AddDigits {
 
         return num;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int num = sc.nextInt();
-
         int result = addDigits(num);
-
         System.out.println(result);
-
         sc.close();
     }
 }
