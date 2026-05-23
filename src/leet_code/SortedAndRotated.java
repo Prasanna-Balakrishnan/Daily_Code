@@ -11,6 +11,7 @@ public class SortedAndRotated {
         }
         return count <= 1;
     }
+
     public static void main(String[] args) {
         int[] nums1 = {3, 4, 5, 1, 2};
         int[] nums2 = {2, 1, 3, 4};
