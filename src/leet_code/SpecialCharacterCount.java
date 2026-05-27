@@ -30,7 +30,6 @@ public class SpecialCharacterCount {
     public static void main(String[] args) {
 
     	SpecialCharacterCount s = new SpecialCharacterCount();
-
         String word = "aaAbcBC";
 
         System.out.println(s.numberOfSpecialChars(word));
