@@ -1,7 +1,5 @@
 package leet_code;
-
 import java.util.Scanner;
-
 public class WordPattern {
 
     public boolean wordPattern(String pattern, String s) {
