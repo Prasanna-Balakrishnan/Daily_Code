@@ -1,6 +1,6 @@
 # Daily_Code
 
-Welcome to my **Daily_Code** repository! 🚀  
+Welcome to my **Daily_Code** repository! 
 This repository contains my daily coding practice, problem-solving solutions, and programming exercises.
 
 ## 📌 About
