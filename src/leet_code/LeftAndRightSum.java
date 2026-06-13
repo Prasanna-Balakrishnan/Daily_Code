@@ -2,17 +2,13 @@ package leet_code;
 
 class AnswerTwo {
     public int[] checkValue(int[] arr) {
-
         int l = arr.length;
         int[] answer = new int[l];
-
         int totalSum = 0;
         for (int num : arr) {
             totalSum += num;
         }
-
         int leftSum = 0;
-
         for (int i = 0; i < l; i++) {
             totalSum -= arr[i];
             answer[i] = Math.abs(leftSum - totalSum);

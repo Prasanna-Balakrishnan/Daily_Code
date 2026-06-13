@@ -5,6 +5,8 @@ public class BinaryAddition {
         if(c == '1') return 1;
         return 0;
     }
+
+    
     public String addBinary(String a, String b) {
         int l1 = a.length();
         int l2 = b.length();
@@ -22,6 +24,7 @@ public class BinaryAddition {
                 result2 = result2.add(BigInteger.valueOf(2).pow(l2 - 1 - i));
             }
         }
+        
         BigInteger total = result1.add(result2);
         if(total.equals(BigInteger.ZERO)) return "0";
         StringBuilder ans = new StringBuilder();
