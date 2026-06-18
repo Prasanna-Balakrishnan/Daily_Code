@@ -18,7 +18,6 @@ I use this repository to:
 - HTML/CSS
 - JavaScript
 
-
 ## 🧠 Topics Covered
 - Arrays
 - Strings
