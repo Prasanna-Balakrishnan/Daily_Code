@@ -19,6 +19,7 @@ public class  FirstIndexOfNeedle{
         }
         return -1;
     }
+    
     public static void main(String[] args) {
         Solution obj = new Solution();
         String haystack = "hello";
