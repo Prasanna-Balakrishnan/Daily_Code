@@ -10,7 +10,6 @@ public class TreeBuildArray {
             this.val = val;
         }
     }
-
     public TreeNode sortedArrayToBST(int[] nums) {
         return build(nums, 0, nums.length - 1);
     }
@@ -19,7 +18,6 @@ public class TreeBuildArray {
         if (start > end) {
             return null;
         }
-
         int mid = (start + end) / 2;
         TreeNode root = new TreeNode(nums[mid]);
 
